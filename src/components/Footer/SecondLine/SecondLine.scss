@@ -1,0 +1,326 @@
+.phon {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.param {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 150px; 
+    color: white;
+    margin-top: 3150px; 
+}
+
+.param h1 {
+    margin: 0; 
+    font-size: 36px; 
+    line-height: 1.2;
+    text-align: center;
+}
+
+.lorems {
+    width: 350px;
+    color: white; 
+    transform: translate(135px, -290px); 
+
+
+}
+
+
+
+
+
+.time{
+background-color: black;
+width:  70px;
+height: 30px;
+transform: translate(530px, -435px);
+text-align: center;
+}
+
+.braslet{
+    background-color: black;
+    width:  70px;
+    height: 30px;
+    transform: translate(620px, -480px);
+    text-align: center;
+}
+
+.remen{
+    background-color: black;
+    width:  70px;
+    height: 30px;
+    transform: translate(710px, -525px);
+    text-align: center;
+}
+
+.jeweler{
+    background-color: black;
+    width:  150px;
+    height: 30px;
+    transform: translate(530px, -525px);
+    text-align: center;
+}
+
+.zaponki{
+    background-color: black;
+    width:  70px;
+    height: 30px;
+    transform: translate(700px, -571px);
+    text-align: center;
+}
+
+
+
+p{
+    color: white;
+}
+
+.lorr{
+    width: 350px;
+    color: white;
+    transform: translate(900px, -665px); 
+
+}
+
+.bu{
+    height: 400px;
+}
+
+
+  
+
+  @media (max-width: 1476px) {
+    .phon{
+        width: 1476px;
+    }
+    .re{
+        margin-left: 100px;
+    }
+
+    .remen{
+        margin-left: 80px;
+    }
+
+    .zaponki{
+        margin-left: 90px;
+    }
+
+    .braslet{
+        margin-left: 80px;
+    }
+
+    .time{
+        margin-left: 70px;
+    }
+
+    .jeweler{
+        margin-left: 80px;
+    }
+
+    .lorems{
+        margin-left: 90px;
+    }
+    
+  }
+
+  @media (max-width: 1298px) {
+    h1{
+        transform: translateX(75px);
+    }
+
+    .phon{
+        width: 1550px;
+    }
+  }
+
+  @media (max-width:1056) {
+
+        .w{
+            margin-left: 600px;
+    }
+    .param{
+        width: 100%;
+        z-index: 100;
+    }
+  }
+
+  @media (max-width: 1027px){
+    
+    .param{
+        width: 1280px;
+    }
+    
+  }
+
+  @media (max-width: 768px) {
+    .phon{
+        width: 2000px;
+        position: relative;
+    }
+
+    .w1{
+        transform: translateX(200px);
+    }
+
+    .w2{
+        transform: translateX(300px);
+    }
+
+    .w3{
+        transform: translateX(400px);
+    }
+
+    .re{
+        margin-left: 500px;
+        width: 400px;
+    }
+
+    .remen{
+        margin-left: 310px;
+    }
+
+    .braslet{
+        margin-left: 300px;
+    }
+
+    .time{
+        margin-left: 290px; 
+    }
+
+    .zaponki{
+        margin-left: 320px;
+    }
+
+    .jeweler{
+        margin-left: 310px;
+    }
+
+    .white{
+        margin-left: 10px;
+    }
+
+  }
+
+  @media (max-width:490px) {
+    .phon{
+      width: 1900px;
+    }
+  }
+
+  @media (max-width:450px) {
+    .phon{
+      width: 1800px;
+    }
+  }
+
+  @media (max-width:430px) {
+    .phon{
+      width: 1700px;
+    }
+
+    .w1{
+        transform: translateX(100px);
+    }
+
+    .w2{
+        transform: translateX(200px);
+    }
+
+    .w3{
+        transform: translateX(300px);
+    }
+
+    .re{
+        margin-left: 400px; 
+        width: 400px;
+    }
+
+    .remen{
+        margin-left: 210px;
+    }
+
+    .braslet{
+        margin-left: 200px;
+    }
+
+    .time{
+        margin-left: 190px; 
+    }
+
+    .zaponki{
+        margin-left: 220px;
+    }
+
+    .jeweler{
+        margin-left: 210px;
+    }
+
+    .white{
+        margin-left: -90px;
+    }
+
+  }
+
+  @media (max-width:400px) {
+    .phon{
+     width: 1600px;
+    }
+
+    .re{
+        width: 300px;
+    }
+  }
+
+  @media (max-width: 370px) {
+    .phon{
+      width: 1500px;
+    }
+
+    .w1{
+        transform: translateX(50px);
+    }
+
+    .w2{
+        transform: translateX(50px);
+    }
+
+    .w3{
+        transform: translateX(50px);
+    }
+
+    .white{
+        margin-left: -150px;
+    }
+
+    .time{
+        margin-left: 50px;
+    }
+
+    .braslet{
+        margin-left: 60px;
+    }
+
+    .remen{
+        margin-left: 70px;
+    }
+
+    .jeweler{
+        margin-left: 60px;
+    }
+
+    .zaponki{
+        margin-left: 80px;
+    }
+
+    .re{
+        margin-left: 150px;
+    }
+  }

@@ -1,0 +1,190 @@
+.body{
+    background-color: #0F0F0F;
+    width: 1275px;
+    height: 80px;
+    margin-top: -25px;
+}
+
+
+.porten{
+ width: 104px;
+height: 49px;
+margin-left: 150px;
+font-size: 36px;
+font-weight: 700;
+line-height: 53.82px;
+padding-top: 15px;
+}
+
+
+.line-container {
+    display: flex; 
+    margin-left: 750px; 
+    align-items: center;
+    margin-top: -65px; 
+}
+
+
+.line {
+    margin-right: 20px;
+}
+
+.like {
+  
+    height: 65px;
+    width: 136px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 600px; 
+    margin-top: -100px; 
+}
+
+
+.cart{
+    margin-left: 1030px;
+    transform: translateY(-35px);
+}
+
+.lupa{
+    margin-left: 20px;
+    transform: translateY(-35px);
+}
+
+.box{
+    transition: 0.6s;
+}
+
+.box:hover{
+box-shadow: 0 0 20px rgba(255, 235, 235, 0.8);
+scale: 1.2;
+}
+
+.line{
+    transition: 0.6s;
+}
+
+.line:hover{
+box-shadow: 0 0 20px rgba(255, 235, 235, 0.8);
+scale: 1.2;
+}
+
+
+.cart{
+    transition: 0.6s;
+}
+
+.cart:hover{
+box-shadow: 0 0 20px rgba(255, 235, 235, 0.8);
+scale: 1.2;
+}
+
+
+.lupa{
+    transition: 0.6s;
+    
+}
+
+.lupa:hover{
+box-shadow: 0 0 20px rgba(255, 235, 235, 0.8);
+scale: 1.2;
+}
+
+@media (max-width: 1476px) {
+    .body{
+        width: 1476px;
+    }
+
+    .cart{
+        margin-left: 1250px;
+    }
+
+    .line{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 1298px) {
+    .body{
+        width: 1550px;
+    }
+}
+
+@media (max-width: 768px) {
+    .body{
+        width: 2000px;
+    }
+
+
+    .cart{
+        margin-left: 1700px;
+    }
+
+    .line-container{
+        margin-left: 1100px;
+    }
+
+    .box{
+        margin-left: 400px;
+    }
+}
+
+@media (max-width:490px) {
+    .body{
+      width: 1900px;
+    }
+  }
+
+  @media (max-width:450px) {
+    .body{
+      width: 1800px;
+    }
+  }
+
+  @media (max-width:430px) {
+    .body{
+      width: 1700px;
+    }
+    .cart{
+        margin-left: 1600px;
+    }
+  }
+
+  @media (max-width:400px) {
+    .body{
+        width: 1600px;
+    }
+
+    .box{
+        margin-left: 300px;
+    }
+
+    .line{
+        margin-left: 10px;
+    }
+
+    .cart{
+        margin-left: 1450px;
+    }
+  }
+
+  @media (max-width: 370px) {
+    .body{
+     width: 1500px;
+    }
+    .box{
+        margin-left: 200px;
+    }
+
+    .line{
+        margin-left: -40px;
+    }
+
+    .cart{
+        margin-left: 1300px;
+    }
+    #cab{
+        transform: translateX(-90px);
+    }
+
+
+  }

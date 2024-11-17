@@ -1,0 +1,78 @@
+.SSbody {
+    width: 637px;
+    height: 600px;
+}
+
+.Season {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.SSline {
+    border: 1px solid white;
+    width: 111px;
+    margin-left: 250px;
+}
+
+
+.LineImg {
+    display: flex; 
+    gap: 20px; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.box1 {
+    width: 240px;
+    text-align: center;
+    color: white;
+}
+
+.XXL {
+    background-color: #191B1C;
+    width: 180px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.chasi {
+    padding-top: 20px;
+    max-width: 100%; 
+    height: auto;
+}
+
+
+
+.korzina{
+    width: 20px;
+    height: 20px;
+    
+}
+
+@media (max-width: 1476px) {
+
+
+    .SSbody{
+       z-index: 2000;
+    }
+    .box1{
+        z-index: 2000;
+    }
+}
+
+@media (max-width: 768px) {
+    .Season{
+        margin-left: -390px;
+    }
+
+}
+
+@media (max-width:400px) {
+    .Season{
+     margin-left: -600px;
+    }
+  }

@@ -1,0 +1,162 @@
+.VVbody {
+    width: 637px;
+    height: 637px;
+    background-color: black;
+    margin-left: 637px;
+    margin-top: -628px;
+    position: relative; 
+}
+
+.sidit {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+
+.text-container {
+    position: absolute;
+    bottom: 180px; 
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.text-container h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.CCline {
+    border: 1px solid white;
+    width: 130px;
+    margin: 10px auto; 
+}
+
+.catalog {
+    border: 1px solid white;
+    width: 138px;
+    height: 47px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 125px;
+   
+}
+
+
+.catalog{
+    transition: 0.6s;
+    
+}
+
+.catalog:hover{
+box-shadow: 0 0 20px rgba(255, 235, 235, 0.8);
+
+}
+
+@media (max-width: 1476px) {
+    .sidit{
+        margin-left: 200px;
+    }
+
+    .catalog{
+        margin-left: 200px;
+    }
+
+    .text-container{
+        margin-left: 200px;
+    }
+
+    
+}
+
+@media (max-width: 1298px) {
+    h1{
+        margin-left: -100px;
+    }
+
+    .sidit{
+        margin-left: 275px;
+    }
+
+    .CCline{
+        margin-left: 325px;
+    }
+
+    .catalog{
+        margin-left: 275px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidit{
+        margin-left: 361px;
+        width: 1000px;
+    }
+
+    .text-container{
+        margin-left: 300px;
+        width: 200px;
+    }
+
+    .CCline{
+        margin-left: 500px;
+    }
+
+    .catalog{
+        margin-left: 550px;
+    }
+}
+
+@media (max-width:490px) {
+    .sidit{
+      width: 900px;
+    }
+  }
+
+  @media (max-width:450px) {
+    .sidit{
+      width: 800px;
+    }
+  }
+
+  @media (max-width:430px) {
+    .sidit{
+      width: 700px;
+    }
+  }
+
+  @media (max-width:400px) {
+    .sidit{
+     margin-left: 261px;
+    }
+
+    .text-container{
+        margin-left: 100px;
+    }
+
+    .catalog{
+        margin-left: 350px;
+    }
+  }
+
+  @media (max-width: 370px) {
+    .sidit{
+      margin-left: 156px;
+    }
+
+    .catalog{
+        margin-left: 250px;
+    }
+
+    .text-container{
+        margin-left: 0px;
+    }
+  }

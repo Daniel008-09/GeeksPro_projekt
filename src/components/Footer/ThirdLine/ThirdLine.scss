@@ -1,0 +1,71 @@
+.third-line {
+    display: flex; 
+    justify-content: space-around; 
+    margin: 20px; 
+  
+    
+}
+
+.third-line p {
+    margin: 0; 
+}
+
+
+// Ваши существующие стили
+
+@media (max-width: 768px) {
+    .third-line {
+      flex-direction: column; // Упорядочиваем элементы по вертикали
+      align-items: center; // Центрируем текст
+    }
+  }
+  
+
+  @media (max-width: 1298px) {
+    .third-line{
+      margin-left: 200px;
+    }
+  }
+
+
+  
+  @media (max-width: 1059px) {
+    .third-line{
+      margin-left: 100px;
+      width: 1300px;
+    }
+
+
+  }
+
+  @media (max-width: 768px) {
+    .third-line{
+      width: 1800px;
+    
+    }
+    .figma{
+      transform: translate(600px, -20px);
+    }
+
+    .prava{
+      transform: translatex(-500px);
+    }
+  }
+
+  @media (max-width:430px) {
+    .figma{
+      width: 700px;
+    }
+  }
+
+  @media (max-width:400px) {
+    .figma{
+      width: 600px;
+    }
+  }
+
+  @media (max-width: 370px) {
+    .third-line{
+      width: 1500px;
+    }
+  }

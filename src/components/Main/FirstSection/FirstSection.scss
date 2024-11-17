@@ -1,0 +1,170 @@
+.costum{
+    width: 1275px;
+    height: 610px;
+}
+
+.Wbox{
+    width: 320px;
+    height: 320px;
+    border: 4px solid white;
+   margin-left: 500px;
+   background-size: cover; 
+   background-position: center; 
+   display: flex; 
+   flex-direction: column;
+   justify-content: center; 
+   align-items: center; 
+   color: white; 
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+   transform: translateY(-500px); 
+}
+
+.Wline{
+    width: 179px;
+    border: 2px solid white;
+}
+
+.Wporten{
+    padding-top: 20px;
+}
+
+
+.Wline {
+    width: 179px;
+    border: 2px solid white;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+.Wporten,
+.Wpiter {
+    margin: 0;
+    padding: 0;
+}
+
+.Wporten {
+    padding-top: 10px; 
+    margin-bottom: -30px; 
+    font-family: Post No Bills Jaffna;
+font-size: 44px;
+font-weight: 700;
+line-height: 95.69px;
+text-align: center;
+color: white;
+}
+
+.Wpiter {
+    padding-top: 0; 
+    margin-top: -15px; 
+    color: white;
+}
+
+.Wlorem{
+    text-align: center;
+    width: 730px;
+height: 96px;
+top: 684px;
+left: 595px;
+margin-left: 300px;
+margin-top: -450px;
+color: white;
+
+}
+
+
+@media (max-width: 1476px) {
+    .costum{
+        width: 1476px;
+    }
+
+    .Wbox{
+        margin-left: 550px;
+    }
+
+    .Wlorem{
+        margin-left: 350px;
+    }
+
+    .SSbody{
+        margin-left: 100px;
+    }
+    
+}
+
+@media (max-width: 1298px) {
+    .costum{
+        width: 1550px;
+    }
+
+    .Wbox{
+        margin-left: 650px;
+    }
+
+    .Wporten{
+        margin-left: -150px;
+    }
+
+    .Wlorem{
+        margin-left: 450px;
+    }
+}
+
+@media (max-width:768px) {
+    .costum{
+        width: 2000px;
+    }
+
+    .Wbox{
+        margin-left: 800px;
+    }
+
+    .Wlorem{
+        margin-left: 600px;
+    }
+}
+
+@media (max-width:490px) {
+    .costum{
+      width: 1900px;
+    }
+  }
+
+  @media (max-width:450px) {
+    .costum{
+      width: 1800px;
+    }
+  }
+
+  @media (max-width:430px) {
+    .costum{
+      width: 1700px;
+    }
+  }
+
+  @media (max-width:400px) {
+    .costum{
+     width: 1600px;
+    }
+
+    .Wbox{
+        margin-left: 700px; 
+    }
+
+    .Wlorem{
+        margin-left: 500px;
+    }
+  }
+
+  @media (max-width: 370px) {
+    .costum{
+      width: 1500px;
+    }
+
+    .Wbox{
+        margin-left: 600px;
+    }
+
+    .Wlorem{
+        margin-left: 400px;
+    }
+  }

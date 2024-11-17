@@ -1,0 +1,30 @@
+.shelbek{
+    width: 637px;
+    height: 500px;
+}
+
+@media (max-width: 1476px) {
+    .shelbek{
+        width: 837px;
+    }
+}
+
+@media (max-width: 768px) {
+    .shelbek{
+        width: 998px;
+    }
+}
+
+@media (max-width:400px) {
+    .shelbek{
+     width: 890px;
+    }
+
+  }
+
+
+  @media (max-width: 370px) {
+    .shelbek{
+      width: 790px;
+    }
+  }
